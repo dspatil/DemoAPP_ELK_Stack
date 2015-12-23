@@ -1,10 +1,21 @@
 ﻿@model DemoApp.RealTimeAnalyticsAndLogs.ELK.Models.UserModel
 
 @{
-    ViewBag.Title = "UserRegistration";
+    ViewBag.Title = "User Registration";
 }
 
-<h2>UserRegistration</h2>
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            <p>
+            </p>
+        </div>
+    </section>
+}
+
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
@@ -54,13 +65,13 @@
         </div>
 
         <p>
-            <input type="submit" value="Create" />
+            <input type="submit" value="Register" />
         </p>
     </fieldset>
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to Index", "Index")
 </div>
 
 @section Scripts {

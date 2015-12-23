@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Registration successful";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+            </hgroup>
+            <p>
+            </p>
+        </div>
+    </section>
+}
+
+<div>
+    <h3>You have successfully registered.</h3>
+
+    <h2>Now, want to see ELK stack magic?</h2>
+
+    <h3>Just click on following link which will land you on kibana dashboard.</h3>
+    <h3>Don't forget to find your name.</h3>
+
+    <h2>
+        <a target="_blank" href="@System.Web.Configuration.WebConfigurationManager.AppSettings["kibanaDashboard"]">Go to kibana dashboard</a>
+    </h2>
+
+</div>

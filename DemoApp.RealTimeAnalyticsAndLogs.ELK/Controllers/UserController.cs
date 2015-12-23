@@ -10,24 +10,26 @@ namespace DemoApp.RealTimeAnalyticsAndLogs.ELK.Controllers
 {
     public class UserController : Controller
     {
-        //
-        // GET: /User/
-
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult UserRegistration()
+        public ActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult UserRegistration(UserModel userModel)
+        public ActionResult Register(UserModel userModel)
         {
             UserManager.RegisterUser(userModel);
-            return View("Index");
+            return View("Success");
+        }
+
+        public ActionResult Success()
+        {
+            return View();
         }
     }
 }
