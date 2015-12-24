@@ -24,7 +24,7 @@ namespace DemoApp.RealTimeAnalyticsAndLogs.ELK.Controllers
         public ActionResult Register(UserModel userModel)
         {
             UserManager.RegisterUser(userModel);
-            return View("Success");
+            return RedirectToAction("Success");
         }
 
         public ActionResult Success()

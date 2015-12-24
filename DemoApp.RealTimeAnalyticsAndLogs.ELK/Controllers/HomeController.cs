@@ -17,5 +17,10 @@ namespace DemoApp.RealTimeAnalyticsAndLogs.ELK.Controllers
         {
             return View();
         }
+
+        public ActionResult TechnicalDetails()
+        {
+            return View();
+        }
     }
 }

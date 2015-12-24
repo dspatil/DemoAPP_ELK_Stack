@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Technical Details";
+}
+
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+<section class="contact">
+    <header>
+        <h2>Below listed both servers are on Amazon web services (AWS) premises. (<a target="_blank" href="https://aws.amazon.com/">Learn More</a>)</h2>
+
+    </header>
+</section>
+
+<section class="contact">
+    <header>
+        <h2>1. Web server</h2>
+    </header>
+    <p>
+        <span class="label">Server :</span>
+        <span>Windows server 2012 with IIS 8.5</span>
+    </p>
+    <p>
+        <span class="label">Web application :</span>
+        <span>.Net MVC4 application</span>
+    </p>
+</section>
+
+<section class="contact">
+    <header>
+        <h2>2. Back-end database server</h2>
+    </header>
+    <p>
+        <span class="label">Server :</span>
+        <span>Ubuntu Server 14.04 LTS (HVM)</span>
+    </p>
+    <p>
+        <span class="label">Installations :</span>
+        <span>Following all are installed using <b>Docker</b> container</span>
+        <ul>
+            <li>Elasticsearch. (version - 1.7.1)</li>
+            <li>Redis. (version - 3.0.6)</li>
+            <li>Kibana. (version - 4.0.3)</li>
+            <li>Logstash. (version - 1.4.2)</li>
+        </ul>
+    </p>
+</section>
+

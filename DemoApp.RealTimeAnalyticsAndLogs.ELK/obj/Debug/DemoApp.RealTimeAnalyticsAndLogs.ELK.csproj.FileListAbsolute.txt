@@ -94,3 +94,4 @@ C:\Users\dpatil\Documents\Visual Studio 2012\Projects\DemoApp.RealTimeAnalyticsA
 C:\Users\dpatil\Documents\Visual Studio 2012\Projects\DemoApp.RealTimeAnalyticsAndLogs.ELK\DemoApp.RealTimeAnalyticsAndLogs.ELK\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\dpatil\Documents\Visual Studio 2012\Projects\DemoApp.RealTimeAnalyticsAndLogs.ELK\DemoApp.RealTimeAnalyticsAndLogs.ELK\obj\Debug\DemoApp.RealTimeAnalyticsAndLogs.ELK.dll
 C:\Users\dpatil\Documents\Visual Studio 2012\Projects\DemoApp.RealTimeAnalyticsAndLogs.ELK\DemoApp.RealTimeAnalyticsAndLogs.ELK\obj\Debug\DemoApp.RealTimeAnalyticsAndLogs.ELK.pdb
+C:\Users\dpatil\Documents\Visual Studio 2012\Projects\DemoApp.RealTimeAnalyticsAndLogs.ELK\DemoApp.RealTimeAnalyticsAndLogs.ELK\obj\Debug\DemoApp.RealTimeAnalyticsAndLogs.ELK.csprojResolveAssemblyReference.cache
